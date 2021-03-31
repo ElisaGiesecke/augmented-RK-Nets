@@ -1,0 +1,68 @@
+{
+  "data": {
+    "data_example": [
+      "spiral_3D"
+    ],
+    "N": [
+      1500
+    ],
+    "V": [
+      1500
+    ],
+    "binary": [
+      false
+    ]
+  },
+  "network": {
+    "net_architecture": [
+      "StandardNet",
+      "RK4Net"
+    ],
+    "d_hat": [
+      16
+    ],
+    "L": [
+      10
+    ],
+    "act_function": [
+      "tanh"
+    ],
+    "fill_zeros": [
+      false
+    ],
+    "classifier_mode": [
+      "train"
+    ]
+  },
+  "training": {
+    "loss_criterion": [
+      "mse",
+      "cross_entropy"
+    ],
+    "batch_size": [
+      5
+    ],
+    "optim_method": [
+      "sgd",
+      "adagrad",
+      "adam",
+      "adadelta"
+    ],
+    "lr": [
+      0.1
+    ],
+    "momentum": [
+      0
+    ],
+    "weight_decay": [
+      0
+    ],
+    "max_epochs": [
+      40
+    ],
+    "tol": [
+      0.05
+    ]
+  },
+  "reps": 2
+}

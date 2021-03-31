@@ -1,0 +1,27 @@
+{
+  "data": {
+    "data_example": "donut_2D",
+    "N": 1500,
+    "V": 1500,
+    "binary": true
+  },
+  "network": {
+    "net_architecture": "RK4Net",
+    "d_hat": 16,
+    "L": 100,
+    "act_function": "relu",
+    "fill_zeros": true,
+    "classifier_mode": "train"
+  },
+  "training": {
+    "loss_criterion": "cross_entropy",
+    "batch_size": 16,
+    "optim_method": "sgd",
+    "lr": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.01,
+    "max_epochs": 40,
+    "tol": 0.05
+  },
+  "reps": 2
+}

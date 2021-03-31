@@ -1,0 +1,69 @@
+{
+  "data": {
+    "data_example": [
+      ["donut_multiclass", 3, 2],
+      ["donut_multiclass", 3, 3],
+      ["donut_multiclass", 2, 6],
+      ["donut_multiclass", 3, 6],
+      ["squares_multiclass", 2],
+      ["squares_multiclass", 3]
+    ],
+    "N": [
+      1500
+    ],
+    "V": [
+      1500
+    ],
+    "binary": [
+      false
+    ]
+  },
+  "network": {
+    "net_architecture": [
+      "EulerNet",
+      "RK4Net"
+    ],
+    "d_hat": [
+      16
+    ],
+    "L": [
+      100
+    ],
+    "act_function": [
+      "tanh"
+    ],
+    "fill_zeros": [
+      false
+    ],
+    "classifier_mode": [
+      "train"
+    ]
+  },
+  "training": {
+    "loss_criterion": [
+      "cross_entropy"
+    ],
+    "batch_size": [
+      5
+    ],
+    "optim_method": [
+      "adam"
+    ],
+    "lr": [
+      null
+    ],
+    "momentum": [
+      null
+    ],
+    "weight_decay": [
+      0
+    ],
+    "max_epochs": [
+      40
+    ],
+    "tol": [
+      0.05
+    ]
+  },
+  "reps": 4
+}

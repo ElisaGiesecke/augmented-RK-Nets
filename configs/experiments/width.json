@@ -1,0 +1,65 @@
+{
+  "data": {
+    "data_example": [
+      "donut_2D",
+      "squares"
+    ],
+    "N": [
+      1500
+    ],
+    "V": [
+      1500
+    ],
+    "binary": [
+      false
+    ]
+  },
+  "network": {
+    "net_architecture": [
+      "RK4Net"
+    ],
+    "d_hat": [
+      2,
+      3
+    ],
+    "L": [
+      100
+    ],
+    "act_function": [
+      "tanh"
+    ],
+    "fill_zeros": [
+      true
+    ],
+    "classifier_mode": [
+      "train"
+    ]
+  },
+  "training": {
+    "loss_criterion": [
+      "cross_entropy"
+    ],
+    "batch_size": [
+      5
+    ],
+    "optim_method": [
+      "adam"
+    ],
+    "lr": [
+      null
+    ],
+    "momentum": [
+      null
+    ],
+    "weight_decay": [
+      0
+    ],
+    "max_epochs": [
+      80
+    ],
+    "tol": [
+      0.05
+    ]
+  },
+  "reps": 4
+}
