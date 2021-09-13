@@ -1,0 +1,64 @@
+{
+  "data": {
+    "data_example": [
+      "MNIST",
+      "FashionMNIST"
+    ],
+    "N": [
+      1500
+    ],
+    "V": [
+      1500
+    ],
+    "binary": [
+      false
+    ]
+  },
+  "network": {
+    "net_architecture": [
+      "EulerNet"
+    ],
+    "d_hat": [  
+      900
+    ],
+    "L": [
+      100
+    ],
+    "act_function": [
+      "tanh"
+    ],
+    "fill_zeros": [
+      false
+    ],
+    "classifier_mode": [
+      "train"
+    ]
+  },
+  "training": {
+    "loss_criterion": [
+      "cross_entropy"
+    ],
+    "batch_size": [
+      5
+    ],
+    "optim_method": [
+      "adam"
+    ],
+    "lr": [
+      null
+    ],
+    "momentum": [
+      null
+    ],
+    "weight_decay": [
+      0
+    ],
+    "max_epochs": [
+      40
+    ],
+    "tol": [
+      0.1
+    ]
+  },
+  "reps": 4
+}
