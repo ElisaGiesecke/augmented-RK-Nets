@@ -1,6 +1,6 @@
 # PyTorch implementation of augmented RK Nets
 
-This repository contains code supplementing the paper ''Classification with Runge-Kutta Networks and feature space augmentation'' (2021), see https://www.aimsciences.org/article/doi/10.3934/jcd.2021018.
+This repository contains code supplementing the paper ''Classification with Runge-Kutta Networks and feature space augmentation'' (2021), see https://www.aimsciences.org/article/doi/10.3934/jcd.2021018, based on my bachelor thesis, available [here](https://github.com/ElisaGiesecke/augmented-RK-Nets/blob/main/bachelor%20thesis.pdf).
 
 ## Implementation
 
